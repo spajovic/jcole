@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    height:100%;
+    /* Glavna strana */
+.container-fluid{
+    height:auto;
+    background-color:white;
+    padding:0px;
+      .navigacija{
+          margin-bottom:0px;
+          margin:0px;
+            nav{
+                position: fixed;
+                z-index: 1;
+                background-color: rgba(0,0,0,0.2);
+                 .nav-wrapper{
+                     background-color:RGBA(0,0,0,0.1);
+                     box-shadow: none;
+                        .brand-logo{
+                            margin-left: 50px;
+                        }
+            
+                ul{
+                    margin-right: 15px;
+                     li{
+                         margin-right: 20px;
+                         a{
+                             font-size: 19px;
+                             font-family: 'Oswald';
+                             letter-spacing: 1px;
+                         }
+                         a:hover{
+                             color:white;
+                             text-decoration: none;
+                         }
+                         a:active{
+                             padding-bottom: 2px;
+                             border-bottom: 1px solid white;
+                         }
+                     }
+                }}
+            }
+            }
+            .slider{
+                height:520px !important ;
+                z-index: 0;
+                .indicators{
+                    display: none !important;
+                }
+                .slider .indicators .indicator-item.active{
+                    color:black;
+                }
+                    .slides{
+                        height:520px !important;
+                    }
+            }
+      }
+      
+.sadrzaj{
+    height:auto;
+    margin:0px;
+    background-color: white;
+        .naslov{
+            margin:0px;
+            padding-top: 50px;
+                h1{
+                    font-family: 'Carrois Gothic';
+                }
+        }
+        .izdanja{
+            height:auto;
+            padding-top: 20px;
+            padding-bottom: 25px;
+            margin:0px;
+            padding-bottom: 60px;
+            .pesma{
+                height:auto;
+                padding: 0px;
+                margin-top: 25px;
+                 .albumi{
+                     width:70%;
+                     height:auto ;
+                     margin: 0px auto;
+                     text-align: center;
+                     background-color: white;
+                     padding-bottom:10px;
+                        h4{
+                            font-family: 'Oswald';
+                            padding: 15px 0px;
+                            font-size: 22px;
+                            font-weight: bold;
+                            letter-spacing: 1px;
+                            font-family: 'Carrois Gothic';
+                        }
+                        img{
+                            width:100%;
+                            height:auto;
+                        }
+                        p{
+                            color:#606063;
+                            text-align: center;
+                            font-size: 16px;
+                            padding: 15px 0px;
+                        }
+                        a{
+                            text-decoration: none;
+                            color:black;
+                            padding: 10px 60px;
+                            border: 1px solid #b1b1b3;
+                            font-size: 10px;
+                            font-family: 'Oswald';
+                            font-weight: bold;
+                            letter-spacing: 1px;
+
+                        }
+                 }
+            }
+             
+        }
+}
+.page-footer{
+    background-color:#212529;
+        .footer-copyright{
+            background-color: #16181a;
+        }
+        .container{
+            .row{
+                margin:0px;
+                font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+                    .ja{
+                        padding-bottom: 20px;
+                        .modal{
+                            .modal-content{
+                                #pomagac{
+                                    margin:0px auto;
+                                    width:50%;
+                                h4{
+                                    width:100%;
+                                    font-size: 35px;
+                                    text-align: center;
+                                    font-family: 'Oswald';
+                                    color:#212529;
+                                }
+                                p{
+                                    width:100%;
+                                    text-align: center;
+                                    font-size: 17px;
+                                    color:#606063;
+                                }
+                                img{
+                                    width:100%;
+                                }
+                            }
+
+                        }
+                        }
+                        .modalcina{
+                            background-color: #b1b1b3;
+                            color:#212529;
+                            font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+                        }
+                        .modalcina:hover{
+                            background-color: #606063;
+                            color:#212529;
+                        }
+
+                    }
+            }
+        }
+}
+/* About strana */
+.sadrzaj{
+    height:auto;
+    padding:0px;
+    margin:0px;
+        .drzac{
+            height:auto;
+            margin:0px;
+            padding:0px;
+            position: absolute;
+                .slikabrt{
+                    height:100vh;
+                    margin:0px;
+                    padding:0px;
+                    position:sticky;
+                    top:0;
+                    overflow: hidden;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                .wiki{
+                    padding-top: 80px;
+                    .prica{
+                        width:60%;
+                        margin:0px auto;
+                        text-align: center;
+                        padding-top:30px;
+                            h1{
+                                font-family: 'Oswald';
+                                font-size: 50px;
+                            }
+                            h3{
+                                font-family: 'Oswald';
+                                font-size: 37px;
+                                padding-top:10px;
+                                letter-spacing: 1px;
+                            }
+                            p{
+                                color:#606063;
+                                font-size: 16px;
+                                padding: 15px 0px;
+                            }
+                    }
+                }
+        }
+}
+/* Support strana */
+#naslov{
+    height:auto;
+    .container-fluid{
+        height:auto;
+            #naslov-forma{
+                margin:0px;
+                padding-top:150px;
+                padding-left: 90px;
+                    .naslov-tekst{
+                        padding:0px;
+                    #movit{
+                        height:auto;
+                        width:100%;
+                        margin:0px  auto;    
+                            h1{
+                                font-family: 'Oswald';
+                                width:80%;
+                                text-align: center;
+                                font-size: 2.8rem;
+                            }
+                            p{
+                                width:80%;
+                                text-align: center;
+                                font-size: 1.2rem;
+                                color: #606063;
+                                padding-top: 15px;
+                            }
+                }
+            }
+                    .forma-baki{
+                        height:auto;
+                        padding-top: 80px;
+                        padding-left: 90px;
+                        padding-bottom: 80px;
+                            form{
+                                width:75%;
+                                    .input-field{
+                                         input[type=password]:focus + label{
+                                            color:#212529;
+                                        }
+                                         input[type=email]:focus{
+                                            border-bottom: 1px solid #212529;
+                                            box-shadow: 0 1px 0 0 #212529;
+                                        }
+                                        input[type=email]:focus + label{
+                                            color:#212529;
+                                        }
+                                         input[type=password]:focus{
+                                            border-bottom: 1px solid #212529;
+                                            box-shadow: 0 1px 0 0 #212529;
+                                        }
+                                        .prefix.active{
+                                            color:#212529
+                                        }
+                                        p{
+                                            font-family:"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+                                            color:black;
+                                        }
+                                        .btn{
+                                            background-color: #212529;
+                                            color:white;
+                                        }
+                                        .btn:hover{
+                                            background-color: #b1b1b3;
+                                            color:#212529;
+                                        }
+                                    }
+                            }
+                    }
+        }
+    }
+}
+/*Events strana */
+#slika-events{
+    width:100%;
+    height:auto;
+        .container-fluid{
+            height:auto;
+            .sliketina{
+                margin:0px;
+                height:470px;
+                padding-top: 190px;
+                background-image: url('../img/eventscover.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                    .naslov-events{
+                        h1{
+                            color:white;
+                            font-family: 'Oswald';
+                            font-size: 6rem;
+                        }
+                    }
+            }
+        }
+}
+#zakazi{
+    height:auto;
+        .container-fluid{
+            height:auto;
+                .zakazi-events{
+                    margin:0px;
+                    padding-bottom: 100px;
+                        .text-events{
+                            text-align: center;
+                            padding-left: 50px;
+                            padding-top: 60px;
+                            h1{
+                                width:100%;
+                                color:#212529;
+                                font-family: 'Oswald';
+                                font-size: 2.8rem;
+                            }
+                            p{
+                                width:100%;
+                                color:#606063;
+                                font-size: 1.2rem;
+                            }
+                        } 
+
+                }
+                .colaps-events{
+                    padding-top: 60px;
+                    padding-left: 50px;
+                        .kolapsibl{
+                            width:90%;
+                                li{
+                                    font-family: 'Oswald';
+                                    letter-spacing: 1px;
+                                        span{
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        }
+                                }
+                        }
+                }
+        }
+}
+}
+@media(max-width:992px){
+    nav .brand-logo{
+        margin-left:0px !important;
+    }
+    body .sadrzaj .drzac .slikabrt{
+        position:relative;
+            img{
+                height:auto;
+            }
+    }
+    body #naslov .container-fluid #naslov-forma .forma-baki{
+        padding-left:30px;
+    }
+}
+@media(max-width:671px){
+    body #slika-events .container-fluid .sliketina .naslov-events h1{
+        font-size: 4.8rem;
+    }
+}
+@media(max-width: 573px){
+    body .sadrzaj .drzac .wiki{
+        padding-top:0px;
+    }
+    body .sadrzaj .drzac .slikabrt{
+        height:auto;
+    }
+}
+@media(max-width:523px){
+    body #naslov .container-fluid #naslov-forma .forma-baki{
+        padding-left: 0px;
+    }
+    body #naslov .container-fluid #naslov-forma{
+        padding-left: 70px;
+    }
+    body #zakazi .container-fluid .zakazi-events .text-events{
+        padding-left: 30px;
+    }
+    body #zakazi .container-fluid .colaps-events{
+        padding-left:30px;
+    }
+}
+@media(max-width:320px){
+    body #naslov .container-fluid #naslov-forma{
+        padding-left: 60px;
+    }
+}
